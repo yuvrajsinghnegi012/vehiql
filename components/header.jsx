@@ -44,14 +44,14 @@ const Header = ({ isAdminPage = false }) => {
               </Link>
               {
                 !isAdmin ? (<Link href="/reservations">
-                  <Button variant="outline" className="cursor-pointer">
-                    <CarFront size={18} />
+                  <Button className="bg-white cursor-pointer text-black hover:bg-white/80">
+                    <CarFront size={18}/>
                     <span className="hidden md:inline">My Reservations</span>
                   </Button>
                 </Link>
                 ) : (
                   <Link href="/admin">
-                    <Button variant="outline" className="cursor-pointer">
+                    <Button className="bg-white cursor-pointer text-black hover:bg-white/80">
                       <Layout size={18} />
                       <span className="hidden md:inline">Admin Portal</span>
                     </Button>
