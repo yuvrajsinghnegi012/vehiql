@@ -35,7 +35,7 @@ const CarCard = ({ car }) => {
                 <Button
                     varient="ghost"
                     size="icon"
-                    className={`absolute top-2 right-2 bg-white/90 rounded-full p-1.5 cursor-pointer ${isSaved ? "text-red-500 hover:text-red-600 " : "text-gray-500 hover:text-gray-900 "}`}
+                    className={`absolute top-2 right-2 bg-white/90 hover:bg-white/90 rounded-full p-1.5 cursor-pointer ${isSaved ? "text-red-500 hover:text-red-600 " : "text-gray-500 hover:text-gray-900 "}`}
                     onClick={handleToggleSaved}
                 >
                     <Heart className={isSaved ? "fill-current" : "" } size={20}/>

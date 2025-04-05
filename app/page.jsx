@@ -18,10 +18,9 @@ export default function Home() {
             <h1 className="text-5xl md:text-8xl mb-4 gradient-title">Find your Dream Car with Vehiql AI</h1>
             <p className="text-xl text-gray-500 mb-8 max-w-2xl mx-auto">Advanced AI Car Search and test drive from those thousands of vechicles.</p>
           </div>
+          {/* Search */}
+          <HomeSearch />
         </div>
-
-        {/* Search */}
-        <HomeSearch />
       </section>
 
       {/* FEATURE CARS */}
